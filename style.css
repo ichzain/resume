@@ -1,10 +1,10 @@
 /* Dasar Halaman */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f2f5;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* background-color: #f0f2f5; */
     margin: 0;
     padding: 0;
-    color: #333;
+    /* color: #333; */
 }
 
 /* Kotak Utama Resume */
@@ -13,8 +13,8 @@ body {
     margin: 40px auto;
     background-color: white;
     padding: 40px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
 }
 
 /* Header */
@@ -95,6 +95,11 @@ h3 {
     font-size: 16px;
     margin: 0 0 5px 0;
     color: #333;
+    padding-bottom: 0;
+}
+
+p{
+    padding-bottom: 0;
 }
 
 .job-date {
