@@ -1,11 +1,13 @@
-/* style.css */
+/* Dasar Halaman */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
+/* Kotak Utama Resume */
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -15,59 +17,99 @@ body {
     border-radius: 8px;
 }
 
-/* Bagian Header */
+/* Header */
 header {
-    margin-bottom: 40px;
-    /* Jarak antara header ke konten pertama */
-    border-bottom: 3px solid #1a3a5a;
-    /* Garis dekorasi tebal di bawah header */
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1a3a5a;
+    padding-bottom: 10px;
 }
 
 h1 {
     font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 5px;
+    margin: 0;
     color: #1a3a5a;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    /* text-transform: uppercase; */
 }
 
-/* Judul Section (Summary, Experience, dll) */
+.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0 15px 0;
+}
+
+/* Baris Kontak */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #444;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Warna Ikon Ikon */
+.icon-mail {
+    color: #d44638;
+}
+
+.icon-wa {
+    color: #25d366;
+}
+
+.icon-li {
+    color: #0077b5;
+}
+
+.icon-map {
+    color: #666;
+}
+
+.divider {
+    color: #ccc;
+}
+
+/* Judul Section */
 h2 {
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 0;
-    /* Margin atas nol karena jarak sudah diatur di tag section */
-    margin-bottom: 0px;
     color: #1a3a5a;
-    display: inline-block;
-    /* border-bottom: 2px solid #1a3a5a; */
-    /* padding-bottom: 3px; */
+    /* border-bottom: 2px solid #eee; */
+    /* padding-bottom: 5px; */
+    /* margin-bottom: 5px; */
+    /* text-transform: uppercase; */
+}
+
+section {
+    margin-bottom: 35px;
 }
 
 h3 {
     font-size: 16px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
     color: #333;
 }
 
-p,
-li {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #444;
+.job-date {
+    font-style: italic;
+    font-size: 13px;
+    color: #777;
     margin-bottom: 10px;
 }
 
-/* Pengaturan Section agar Renggang */
-section {
-    margin-bottom: 45px;
-    /* Ini yang membuat antar bagian jadi lega */
+ul {
+    padding-left: 20px;
 }
 
-section:last-of-type {
-    margin-bottom: 0;
+li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
 }
