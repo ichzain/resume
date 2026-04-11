@@ -81,7 +81,7 @@ h1 {
 h2 {
     font-size: 20px;
     color: #1a3a5a;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid;
     /* padding-bottom: 5px; */
     /* margin-bottom: 5px; */
     /* text-transform: uppercase; */
